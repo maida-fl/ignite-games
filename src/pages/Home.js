@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 //Redux
 import { useDispatch } from "react-redux";
 import { loadGames } from "../actions/gamesAction";
+//Components
+import Game from "../components/Game";
 
 const Home = () => {
   //FETCH GAMES
